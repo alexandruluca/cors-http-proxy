@@ -1,7 +1,7 @@
 {
   "name": "cors-http-proxy",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a simple reverse proxy which can be used for development to access server responses where CORS is not enabled for a specific reason.",
   "main": "index.js",
   "bin": {
     "cors-http-proxy": "./index.js"
@@ -9,12 +9,26 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "luca.p.alexandru@gmail.com",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "http-proxy": "^1.17.0",
     "yargs": "^12.0.5"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandruluca/cors-http-proxy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexandruluca/cors-http-proxy/issues"
+  },
+  "homepage": "https://github.com/alexandruluca/cors-http-proxy#readme",
+  "keywords": [
+    "cors",
+    "http",
+    "proxy"
+  ]
 }
