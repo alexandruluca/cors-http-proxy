@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const {startServer} = require('./server');
 const args = require('yargs')
     .option('target', {
