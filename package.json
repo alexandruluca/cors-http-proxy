@@ -1,6 +1,6 @@
 {
   "name": "cors-http-proxy",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "This is a simple reverse proxy which can be used for development to access server responses where CORS is not enabled for a specific reason.",
   "main": "index.js",
   "bin": {
